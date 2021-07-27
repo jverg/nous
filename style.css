@@ -1,0 +1,22 @@
+.navbar {
+    background: rgba(255,255,255,0.6)
+}
+.menu-item {
+    color: black;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.menu-item:hover {
+    text-decoration: none;
+    color: grey;
+}
+.video {
+    width: 100%;
+    top: 0;
+}
+.card-image-text {
+    display: flex;
+}
+.card-text {
+    width: 50%;
+}
