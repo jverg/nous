@@ -29,6 +29,9 @@ video {
 .card-image-text {
   display: flex;
 }
+.card-image-text-2 {
+  display: flex;
+}
 .our-story-title {
   margin-bottom: 2rem;
   display: flex;
@@ -43,4 +46,20 @@ video {
   justify-content: center;
   display: flex;
   flex-direction: column;
+}
+.card-image {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .card-image-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-image-text-2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card-image {
+    width: 100%;
+  }
 }
