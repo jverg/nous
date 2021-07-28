@@ -80,4 +80,8 @@ video {
   .card-image {
     width: 100%;
   }
+  .text-only-text {
+    padding: 2.5rem 10%;
+    text-align: justify;
+  }
 }
