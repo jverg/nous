@@ -34,6 +34,21 @@ video {
 .card-image-text-2 {
   display: flex;
 }
+.image-only {
+  display: flex;
+}
+.image-only-image {
+  width: 100%;
+}
+.text-only {
+  display: flex;
+  background-color: #4d545c;
+  color: white;
+}
+.text-only-text {
+  padding: 2.5rem 30%;
+  text-align: justify;
+}
 .our-story-title {
   margin-bottom: 2rem;
   display: flex;
