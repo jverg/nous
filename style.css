@@ -1,5 +1,6 @@
 body {
   line-height: 0;
+  font-family: "Raleway", sans-serif;
 }
 .navbar {
   background: rgba(255, 255, 255, 0.5);
@@ -8,11 +9,12 @@ body {
 .menu-item {
   color: black;
   margin-right: 15px;
+  font-weight: bold;
   text-decoration: none;
 }
 .menu-item:hover {
   text-decoration: none;
-  color: grey;
+  color: black;
 }
 .video-container {
   width: 100%;
@@ -37,6 +39,7 @@ video {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
 }
 .card-text {
   text-align: justify;
