@@ -53,11 +53,11 @@ video {
 @media (max-width: 768px) {
   .card-image-text {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .card-image-text-2 {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .card-image {
     width: 100%;
