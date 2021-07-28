@@ -36,7 +36,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 768px) { 
+@media (max-width: 768px) { 
   .video {
     width: auto;
   }
