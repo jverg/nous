@@ -1,22 +1,38 @@
+body {
+  line-height: 0;
+}
 .navbar {
-    background: rgba(255,255,255,0.6)
+  background: rgba(255, 255, 255, 0.5);
+  line-height: 3;
 }
 .menu-item {
-    color: black;
-    margin-right: 15px;
-    text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  text-decoration: none;
 }
 .menu-item:hover {
-    text-decoration: none;
-    color: grey;
+  text-decoration: none;
+  color: grey;
 }
 .video {
-    width: 100%;
-    top: 0;
+  width: 100%;
+  top: 0;
 }
 .card-image-text {
-    display: flex;
+  display: flex;
+}
+.our-story-title {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .card-text {
-    width: 50%;
+  text-align: justify;
+}
+.card-text-title {
+  padding: 2.5rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
