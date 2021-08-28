@@ -41,6 +41,10 @@
   background-color: #4d545c;
   color: white;
 }
+.our-team-button:hover {
+  background-color: #4d545c;
+  color: white;
+}
 @media (max-width: 768px) {
   .our-team-1 {
     flex-direction: column;
