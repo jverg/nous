@@ -24,19 +24,10 @@
   align-items: center;
   align-content: center;
   text-align: center;
+  width: 100%;
 }
 .our-team-title {
   margin-bottom: 2rem;
-}
-.our-team-title-only {
-  margin-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin-left: 20%;
-  text-align: center;
 }
 .our-team-body {
   margin: 0 3rem 2rem 3rem;
@@ -85,8 +76,5 @@
   }
   .our-team-button {
     margin: 0 0 3rem 0;
-  }
-  .our-team-title-only {
-    margin-left: 0;
   }
 }
