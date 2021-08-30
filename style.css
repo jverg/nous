@@ -139,6 +139,20 @@ video {
 .card-image-story {
   display: none;
 }
+.our-team-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #4d545c;
+  color: white;
+}
+.our-team-button:hover {
+  background-color: #4d545c;
+  color: white;
+}
 @media (max-width: 768px) {
   .card-image-text {
     display: flex;
@@ -156,6 +170,10 @@ video {
     width: 100%;
   }
   .card-image-story {
+    display: flex;
+    width: 100%;
+  }
+  .card-image-ikariadiet {
     display: flex;
     width: 100%;
   }
@@ -180,5 +198,8 @@ video {
   }
   .back-3 {
     display: none;
+  }
+  .our-team-button {
+    margin: 0 0 3rem 0;
   }
 }
