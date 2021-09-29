@@ -233,6 +233,7 @@ body {
 
 .gallery > img {
   width: 50%;
+  padding: 5px;
   transition: 0.1s transform;
   transform: translateZ(0); /* hack */
 }
