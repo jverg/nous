@@ -1,0 +1,257 @@
+body {
+  line-height: 0;
+  font-family: "Raleway", sans-serif;
+}
+.logo {
+  width: 120px;
+  margin-left: 20px;
+}
+.back-1 {
+  width: 100%;
+  background-image: url(image1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: left;
+  display: flex;
+  justify-content: right;
+}
+.back-3 {
+  width: 100%;
+  background-image: url(image3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: left;
+  display: flex;
+  justify-content: right;
+}
+.card-text-1 {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: black;
+  width: 50%;
+  height: 100%;
+  padding: 10rem 3rem;
+}
+.card-1-text {
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  background: rgba(255, 255, 255, 0.8);
+  line-height: 3;
+}
+.menu-item {
+  color: black;
+  margin-right: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.menu-item:hover {
+  text-decoration: none;
+  color: black;
+}
+.video-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.video-2-container {
+  width: 100%;
+  overflow: hidden;
+}
+.video-2 {
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+.card-image-text {
+  display: flex;
+}
+.card-image-text-2 {
+  display: flex;
+}
+.image-only {
+  display: flex;
+}
+.image-only-image {
+  width: 100%;
+}
+.text-only {
+  display: flex;
+  background-color: #4d545c;
+  color: white;
+}
+.text-only-text {
+  padding: 8% 30%;
+  text-align: justify;
+}
+.our-story-title {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.second-card-title {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.second-card-text-title {
+  padding: 3rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.card-text {
+  text-align: justify;
+}
+.card-text-title {
+  padding: 3rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.card-image {
+  width: 50%;
+}
+.map {
+  filter: grayscale(100%);
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4d545c;
+  padding: 6rem;
+  color: white;
+  text-align: center;
+}
+.footer-image {
+  margin-bottom: 2rem;
+}
+.card-image-text-1 {
+  display: none;
+}
+.card-image-story {
+  display: none;
+}
+.our-team-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #4d545c;
+  color: white;
+}
+.our-team-button:hover {
+  background-color: #4d545c;
+  color: white;
+}
+@media (max-width: 768px) {
+  .card-image-text {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card-image-text-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-image-text-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-image {
+    width: 100%;
+  }
+  .card-image-story {
+    display: flex;
+    width: 100%;
+  }
+  .card-image-ikariadiet {
+    display: flex;
+    width: 100%;
+  }
+  .text-only-text {
+    padding: 2.5rem 10%;
+    text-align: justify;
+  }
+  .second-card-text-title {
+    padding: 1.5rem;
+  }
+  .card-text-title-1 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  .card-text-title {
+    padding: 1.5rem;
+  }
+  .back-1 {
+    display: none;
+  }
+  .back-3 {
+    display: none;
+  }
+  .our-team-button {
+    margin: 0 0 3rem 0;
+  }
+}
+
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: 0.1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.5, 1.5);
+  transition: 0.3s transform;
+}
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
